@@ -17,11 +17,11 @@ async def stop(self, ctx):
 @commands.command()
 async def members(ctx):
 
-bot = commands.Bot(command_prefix=commands.when_mentioned_or("!")
+    bot = commands.Bot(command_prefix=commands.when_mentioned_or("!")
 
 @bot.event
 async def on_ready():
     print('Logged in as {0} ({0.id})'.format(bot.user))
     print('------')
 
-bot.run('txtq0V00yiax-9yg0huZSDLj072N9-UX')
+bot.run('my token')
